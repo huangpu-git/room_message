@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from room.items import RoomItem
-
+import redis
 
 class LianjiaSpider(scrapy.Spider):
     name = 'lianjia'
